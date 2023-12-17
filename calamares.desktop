@@ -1,19 +1,19 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install System
-GenericName=System Installer
+Name=Install Agni OS
+GenericName=Agni OS Installer
 Keywords=calamares;system;installer;
 TryExec=calamares
-Exec=sh -c "pkexec calamares"
+Exec=sh -c "sudo -E calamares -D 8
 Comment=Calamares — System Installer
-Icon=calamares
+Icon=agnios-logo
 Terminal=false
 StartupNotify=true
 Categories=Qt;System;
 X-AppStream-Ignore=true
 
-Name[ar]=تثبيت النظام 
+Name[ar]=تثبيت النظام
 Icon[ar]=كالامارس
 GenericName[ar]=مثبت النظام
 Comment[ar]=كالامارس - مثبت النظام
